@@ -26,3 +26,9 @@
 1 - Name: [GraphQL](https://marketplace.visualstudio.com/items?itemName=mquandalle.graphql)
 2 - Name: [GraphQL: Language Feature Support](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
 3 - Name: [GraphQL: Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-syntax)
+
+# Observações 👀
+
+- _inputs_ em GraphQL são o req.body que o express utiliza. É dessa forma que pegamos o que está sendo nos enviado pelo studio ou por chamada.
+- _dto_ = Data Transfer object
+- _models_ são tidos como uma forma de declarar os type.
