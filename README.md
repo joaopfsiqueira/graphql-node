@@ -14,7 +14,9 @@
 3 - npx tsc --init
 4 - npi i graphql apollo-server
 
-- Depois de alguns testes e commits iniciais, aumentei a complexidade do projeto com typeGraphql.
+- Depois de alguns testes e commits iniciais, aumentei a complexidade do projeto com typeGraphql. Nos primeiros commits e arquivo `simple-server.ts`, eu usei a abordagem _Schema First_, onde o schema vem antes do código, sendo tudo em um único arquivo.
+
+- Nos commits finais, usei a abordagem _Code First_, que primeiro executa o código e o TypeGraphql junto de extensões cuidam de gerar o arquivo de schema.
 
 5 - npm un graphql
 6 - npm i graphql class-validator type-graphql

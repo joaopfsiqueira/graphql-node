@@ -3,6 +3,10 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Mutation {
+  createAppointment: Boolean!
+}
+
 type Query {
   helloWorld: String!
 }
