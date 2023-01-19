@@ -7,7 +7,7 @@ import path from 'node:path';
 async function bootstrap() {
   const schema = await buildSchema({
     resolvers: [AppointmentsResolver],
-    emitSchemaFile: path.resolve(__dirname, './schema.graphql'),
+    emitSchemaFile: path.resolve(__dirname, 'schema.gql'),
   });
   const server = new ApolloServer({
     schema,

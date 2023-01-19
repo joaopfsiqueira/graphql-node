@@ -1,9 +1,9 @@
 import { InputType, Field } from 'type-graphql';
 
 @InputType()
-export class createAppointmentInput {
+export class CreateAppointmentInput {
   @Field()
-  customerId: String;
+  customerId: string;
 
   @Field()
   startsAt: Date;
