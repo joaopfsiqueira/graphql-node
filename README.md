@@ -18,3 +18,9 @@
 
 5 - npm un graphql
 6 - npm i graphql class-validator type-graphql
+
+# Extensões 📲
+
+1 - Name: [GraphQL](https://marketplace.visualstudio.com/items?itemName=mquandalle.graphql)
+2 - Name: [GraphQL: Language Feature Support](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
+3 - Name: [GraphQL: Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-syntax)
