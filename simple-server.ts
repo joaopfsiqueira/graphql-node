@@ -10,6 +10,8 @@ const typeDefs = gql`
   }
 `;
 
+const users = [];
+
 const server = new ApolloServer({
   typeDefs,
   resolvers: {
@@ -19,9 +21,9 @@ const server = new ApolloServer({
 
     Mutation: {
       createUser: (parent, args, ctx) => {
-        console.log(args);
+        users.push(args.name);
 
-        return 'John Doe';
+        return args.name;
       },
     },
   },
