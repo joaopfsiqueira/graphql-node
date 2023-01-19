@@ -2,7 +2,7 @@ import { ApolloServer, gql } from 'apollo-server';
 
 const typeDefs = gql`
   type Query {
-    helloWorld: String!
+    users: [String!]
   }
 
   type Mutation {
@@ -10,13 +10,15 @@ const typeDefs = gql`
   }
 `;
 
-const users = [];
+const users: string[] = [];
 
 const server = new ApolloServer({
   typeDefs,
   resolvers: {
     Query: {
-      helloWorld: () => 'Hello World',
+      users: () => {
+        return users;
+      },
     },
 
     Mutation: {
