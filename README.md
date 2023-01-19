@@ -1,5 +1,12 @@
 # Repositório criado para praticar e entender GRAPHQL.
 
+# Ferramentas 🛠️
+
+- [Node](https://nodejs.org/en/)
+- [GraphQL](https://graphql.org/)
+- [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
+- [TypeScript](https://www.typescriptlang.org/)
+
 # Como eu fiz: 🚀
 
 1 - npm init -y
