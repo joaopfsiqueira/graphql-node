@@ -13,3 +13,8 @@
 2 - npm i typescript ts-node-dev -D
 3 - npx tsc --init
 4 - npi i graphql apollo-server
+
+- Depois de alguns testes e commits iniciais, aumentei a complexidade do projeto com typeGraphql.
+
+5 - npm un graphql
+6 - npm i graphql class-validator type-graphql
